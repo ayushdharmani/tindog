@@ -1,0 +1,113 @@
+/* CSS to fit to frame */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background: #d9d9d8;
+    margin: 0;
+  }
+  
+  a{
+      color: #DDD;
+      text-decoration: none;
+  }
+  span{
+    color: #DDD;
+    text-align: center;
+  }
+  p{
+    color: #DDD;
+  }
+
+
+
+/* Navbar section */
+.categories {
+margin-bottom: 3px;
+}
+.navbar{
+    padding: 0;
+    margin-top: -14px;
+    box-sizing: border-box;
+}
+
+/* Crousal Section */
+#testimonials {
+  background-color:rgb(245, 236, 245);
+  text-align: center;
+  margin: 20px 0;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 75%;
+  margin: 20px;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  filter: invert(100%);
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   filter: invert(100%);
+ }
+
+ .categoryName{
+   padding: 10px 0px 10px 0px;
+   background-color: #4ee26e;
+   text-align: center;
+  color: #31002b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+ }
+/* Catalogue */
+.card{
+  border-width: 0px;
+}
+
+
+.card-text-top{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  margin-right: 4%;
+  color: black;
+}
+
+.card-text{
+  color: black;
+}
+
+.card-top-text-margin{
+  margin-left: 15px;
+  margin-top: 3%;
+} 
+
+.card-img-top-width-height{
+  width: 92%;
+  height: 18rem;
+  margin: auto;
+}
+
+.set-new-launches{
+  height: 20.3rem;
+}
+/* Footer Section */
+#footer{
+  color: white;
+  background-color: #4ee26e;
+  padding: 5%;
+  text-align: center;
+}
+
+.fut{
+  padding: 0.75%;
+}
